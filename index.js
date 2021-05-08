@@ -16,12 +16,6 @@ server.listen(process.env.PORT || 3000);
 
 
 // -----------------------------------------------------------------------------
-// ルーター設定
-server.post('/bot/webhook', line.middleware(line_config), (req, res, next) => {
-    res.sendStatus(200);
-    console.log(req.body);
-});
-
 //省略
 
 // APIコールのためのクライアントインスタンスを作成
