@@ -36,7 +36,7 @@ server.post('/bot/webhook', line.middleware(line_config), (req, res, next) => {
                     type: "text",
                     text: "僕は可愛いお天気カエルだよん\nまだ何もできない無能なカエル\n頑張って色々覚えるから(´;ω;｀)\nもう少し待ってね"
                 }));
-            }
+            
         
     });
 
