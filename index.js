@@ -44,7 +44,7 @@ server.post('/bot/webhook', line.middleware(line_config), (req, res, next) => {
             
                 events_processed.push(bot.replyMessage(event.replyToken, {
                     type: "text",
-                    text: "ぼくは可愛いお天気カエルだよん\nまだ何もできないけど(´;ω;｀)"
+                    text: "ぼくは可愛いお天気カエルだよ\nまだ何もできないけど(´;ω;｀)"
                 }));
             
         }
