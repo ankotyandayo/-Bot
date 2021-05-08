@@ -10,7 +10,10 @@ const line_config = {
     channelSecret: process.env.LINE_CHANNEL_SECRET // 環境変数からChannel Secretをセットしています
 };
 
-//省略
+// -----------------------------------------------------------------------------
+// Webサーバー設定
+server.listen(process.env.PORT || 3000);
+
 
 // APIコールのためのクライアントインスタンスを作成
 const bot = new line.Client(line_config);
