@@ -1,24 +1,6 @@
-# README
+Lineで天気情報を教えてくれるBotを作りました。
+'今日' か '明日' という言葉に反応して天気情報を送ってくれます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+以下URL
+https://lin.ee/1MxbwXu
